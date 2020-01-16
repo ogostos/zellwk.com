@@ -324,7 +324,7 @@ const filterLoop = _ => {
 
 Here's why it happens. 
 
-When you use `await` in a `filter` callback, the callback always a promise. Since promises are always truthy, everything item in the array passes the filter. Writing `await` in a `filter` is like writing this code: 
+When you use `await` in a `filter` callback, the callback always a promise. Since promises are always truthy, every item in the array passes the filter. Writing `await` in a `filter` is like writing this code: 
 
 ```js
 // Everything passes the filter...
